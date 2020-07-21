@@ -1,0 +1,15 @@
+{
+  "python.languageServer": "Pylance",
+  "python.pythonPath": "~/.pyenv/versions/fastapi-app/bin/python",
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.linting.lintOnSave": true,
+  "python.sortImports.args": ["--settings-path=${workspaceFolder}/.isort.cfg"],
+  "python.formatting.blackArgs": ["--line-length", "120"]
+}

@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "Python: Local Attach",
+      "type": "python",
+      "request": "attach",
+      "port": 10001,
+      "host": "localhost"
+    }
+  ]
+}

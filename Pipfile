@@ -10,7 +10,7 @@ isort = "==5.5.3"
 mypy = "==0.782"
 
 [packages]
-fastapi = "==0.61.1"
+fastapi = "==0.65.2"
 uvicorn = "==0.11.8"
 odmantic = {git = "ssh://git@github.com/art049/odmantic.git"}
 
